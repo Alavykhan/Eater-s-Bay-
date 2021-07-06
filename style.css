@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+}
+.logo{
+    margin-top: 3px;
+}
+.logo img{
+    width: 60%;
+}
+
+.menu{
+    position: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    margin-right: 25px;
+    margin-top: 8px;
+}
+.menu ul li a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
