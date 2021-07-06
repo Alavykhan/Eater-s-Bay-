@@ -4,17 +4,20 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 1018px;    
+    margin: 0;
 }
-
+.header{
+    margin-bottom: 20px;
+    
+}
 .logo{
     margin-top: 3px;
     width: 160px;
 }
-div{
-    display: block;
-}
+
 .logo img{
     width: 60%;
+    padding-left: 50%;
 }
 
 .menu{
@@ -54,4 +57,25 @@ div{
     font-weight: 700;
     color: black;
     border-radius: 10%;
+}
+.font-color{
+    color: #EFC54A;
+}
+.container{
+    display: flex;
+        margin-bottom: 150px;
+}
+.top-width{width: 50%;
+    padding-left: 6%;
+    padding-right: 10%;
+
+}
+h1{
+font-size: 25px;
+}
+.top-width img{
+    width: 82%;
+}
+.orphanage img{
+    width: 100%;
 }
