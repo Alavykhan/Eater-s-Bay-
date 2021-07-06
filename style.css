@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;}
-    
+
 .header{
     margin-bottom: 20px;
     
@@ -102,8 +102,6 @@ padding: 0px 150px 0px 0px;
    margin-bottom: 100px;
 }
 
-
-
 .flexible-container{
     display: flex;
     margin-bottom: 150px; 
@@ -120,9 +118,8 @@ padding: 0px 150px 0px 0px;
 
     .food-1{
         width: 50%;
-        
-    }
-
+         }
+    
    .experience-item{
        margin-left: 5%;
        margin-right: 5%;
