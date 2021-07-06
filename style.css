@@ -3,21 +3,23 @@ body{
     background-image: url(image/top-right.png);
     background-repeat: no-repeat;
     background-position: right;
-    
+    background-size: 1018px;    
 }
-header{
-    display: flex;
-    
-}
+
 .logo{
     margin-top: 3px;
+    width: 160px;
+}
+div{
+    display: block;
 }
 .logo img{
     width: 60%;
 }
 
 .menu{
-    position: right;
+    float: right;
+    margin-top: -75px;
 }
 .menu ul{
     list-style: none;
@@ -30,8 +32,18 @@ header{
 #home a{
     font-weight: 700;
 }
+#order a {
+    font-weight: 700;
+}
+.link-button{
+    text-decoration: none;
+    background-color: white;
+    padding: 3px 15px;
+    font-weight: 700;
+    border-radius: 10%;
+}
 .menu ul li a{
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
 }
