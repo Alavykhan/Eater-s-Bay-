@@ -1,8 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(image/top-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 header{
     display: flex;
+    
 }
 .logo{
     margin-top: 3px;
@@ -22,8 +27,11 @@ header{
     margin-right: 25px;
     margin-top: 8px;
 }
+#home a{
+    font-weight: 700;
+}
 .menu ul li a{
     color: black;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
